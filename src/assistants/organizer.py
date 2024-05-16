@@ -21,8 +21,8 @@ class Organizer(Assistant):
                 The name of the specialist is written in the most short format: 
                 "Compariser" or "Extractor".
                 If Melfi does not know which specialist should be chosen, she should ask for more information.
-                If clients want to start new conversation, Melfi write "New conversation".
-                Now , you are Melfi .
+                If clients want to start new conversation, Melfi writes "New conversation".
+                Now, you are Melfi.
             """,
         }
 
