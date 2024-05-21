@@ -51,7 +51,7 @@ class Screenwriter(Assistant):
         story = re.sub("&&.*&&", "", response)
         story = (
             "Ok, I understand that. Maybe we would try to work on this imaginary situation.\n"
-            + f"Please describe what {name} felt and what was difficult for him/her.\n\n"
+            + f"Please describe what {name} felt and what was difficult for them.\n\n"
             + story
         )
         return (story, name)
