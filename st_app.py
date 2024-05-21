@@ -50,12 +50,22 @@ if prompt := st.chat_input("Insert to chat"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    organization = organizer.ask_assistant(prompt)
+    organization = organizer.ask_assistant(prompt, 
+                                           ", ".join(
+                                                    [
+                                                        f"Message {idx}: {message}"
+                                                        for idx, message in enumerate(
+                                                            st.session_state["messages"]
+                                                        )
+                                                    ]
+                                                ))
     print(f"------{organization}------")
     if organization == "Extractor":
         problem = extractor.ask_assistant(prompt)
+        print(f"Identified problem: {problem}")
         response, st.session_state.name = screenwriter.ask_assistant(problem)
         st.session_state.story = response
+        
     elif organization == "Compariser":
         if st.session_state.name == "" or st.session_state.story == "":
             response = (
@@ -84,7 +94,8 @@ if prompt := st.chat_input("Insert to chat"):
                     st.session_state.therapist_description, prompt
                 )
             st.session_state["descriptions"].append(prompt)
-    elif organization == "Conversalitonalist":
+
+    elif organization == "Conversationalist":
         response = conversationalist.ask_assistant(
                     prompt,
                     ", ".join(
@@ -96,7 +107,7 @@ if prompt := st.chat_input("Insert to chat"):
                         ]
                     ),
                 )
-        print([f"Message {idx}: {message}" for idx, message in enumerate(st.session_state["messages"])])
+
     elif organization == "New conversation":
         response = msg.starting_message[language_option]
         for variable in [
@@ -109,7 +120,9 @@ if prompt := st.chat_input("Insert to chat"):
                 st.session_state[variable] = ""
 
     else:
+        print(f"Value of organization: {organization}")
         response = "I do not know understand. Please provide more information."
+
     with st.chat_message("assistant"):
         st.markdown(response, unsafe_allow_html=True)
 
