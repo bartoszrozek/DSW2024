@@ -5,3 +5,4 @@ from src.assistants.concluser import Concluser
 from src.assistants.extractor import Extractor
 from src.assistants.screenwriter import Screenwriter
 from src.assistants.organizer import Organizer
+from src.assistants.conversationalist import Conversalionalist
