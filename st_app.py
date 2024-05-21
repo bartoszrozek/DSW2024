@@ -10,6 +10,7 @@ analist = assistants.Analist()
 concluser = assistants.Concluser()
 compariser = assistants.Compariser()
 organizer = assistants.Organizer()
+conversationalist = assistants.Conversationalist()
 
 st.set_page_config(layout="wide")
 
@@ -83,6 +84,19 @@ if prompt := st.chat_input("Insert to chat"):
                     st.session_state.therapist_description, prompt
                 )
             st.session_state["descriptions"].append(prompt)
+    elif organization == "Conversalitonalist":
+        response = conversationalist.ask_assistant(
+                    prompt,
+                    ", ".join(
+                        [
+                            f"Message {idx}: {message}"
+                            for idx, message in enumerate(
+                                st.session_state["messages"]
+                            )
+                        ]
+                    ),
+                )
+        print([f"Message {idx}: {message}" for idx, message in enumerate(st.session_state["messages"])])
     elif organization == "New conversation":
         response = msg.starting_message[language_option]
         for variable in [
@@ -98,5 +112,6 @@ if prompt := st.chat_input("Insert to chat"):
         response = "I do not know understand. Please provide more information."
     with st.chat_message("assistant"):
         st.markdown(response, unsafe_allow_html=True)
+
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
