@@ -1,0 +1,28 @@
+.container-fluid {
+  width: 80%;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.input-message-bar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#new_message,
+div:has(> #new_message),
+#new_message_button {
+  height: 100% !important;
+}
+
+.user-message,
+.chat-message {
+}
+
+.message-author {
+  font-weight: bold;
+  font-size: 18px;
+}
