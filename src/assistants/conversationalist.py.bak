@@ -31,7 +31,7 @@ class Conversationalist(Assistant):
             }
         return {
             "role": "system",
-            "content": "No previous messages.",
+            "content": f"No previous messages.",
         }
 
     def ask_assistant(
