@@ -2,6 +2,8 @@ import streamlit as st
 from openai import OpenAI
 import conversations.starting_message as msg
 import src.assistants as assistants
+import os
+import datetime
 
 client = OpenAI()
 extractor = assistants.Extractor()
@@ -34,6 +36,9 @@ for variable in [
     if variable not in st.session_state:
         st.session_state[variable] = ""
 
+if "start_timestamp" not in st.session_state:
+    st.session_state["start_timestamp"] = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+
 
 with st.chat_message("assistant"):
     st.markdown(msg.welcome_message[language_option])
@@ -43,12 +48,21 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+# Logging: Write a log of the interaction
+os.makedirs("logs", exist_ok=True)
+log_filename = f'logs/{st.session_state["start_timestamp"]}.log'
+
 # React to user input
 if prompt := st.chat_input("Insert to chat"):
     # Display user message in chat message container
     st.chat_message("user").markdown(prompt)
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
+
+
+    # Logging prompt
+    with open(log_filename, 'a') as f:
+        f.write(f"User: {prompt}\n")
 
     organization = organizer.ask_assistant(prompt, 
                                            ", ".join(
@@ -59,10 +73,20 @@ if prompt := st.chat_input("Insert to chat"):
                                                         )
                                                     ]
                                                 ))
+    
+    # Logging organisation
     print(f"------{organization}------")
+    with open(log_filename, 'a') as f:
+        f.write(f"------{organization}------\n")
+
     if organization == "Extractor":
         problem = extractor.ask_assistant(prompt)
+
+        # Logging problem
         print(f"Identified problem: {problem}")
+        with open(log_filename, 'a') as f:
+            f.write(f"Identified problem: {problem}\n ")
+
         response, st.session_state.name = screenwriter.ask_assistant(problem)
         st.session_state.story = response
         
@@ -128,3 +152,7 @@ if prompt := st.chat_input("Insert to chat"):
 
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
+
+    # Logging response
+    with open(log_filename, 'a') as f:
+        f.write(f"Assistant: {response}\n")

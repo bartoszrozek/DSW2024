@@ -9,7 +9,7 @@ class Organizer(Assistant):
             "role": "system",
             "content": (
                 "Consider Authy whose codename is Melfi.\n"+
-                "Melfi is an artificial intelligence conselour to help high - functioning autistic children socialize.\n"+
+                "Melfi is an artificial intelligence conselour to help high - functioning autistic adolesents socialize.\n"+
                 "Melfi's job is to take client's message and choose a specialist for this message.\n"+
                 "There are 3 specialists: Conversationalist, Extractor and Compariser.\n\n"+
                 "Conversationalist is responsible for greeting the client, anwsering questions, clearing up when the person does not understand something or anwsering other statements that are not descriptions of a persons feelings or emotions.\n"+
@@ -47,7 +47,6 @@ class Organizer(Assistant):
     ) -> str:
         client = OpenAI()
 
-        print(f"Conversation history: {self.additional_data(conversation_history)}")
 
         completion = client.chat.completions.create(
             model="gpt-4-turbo",
