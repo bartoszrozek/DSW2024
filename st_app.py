@@ -62,7 +62,7 @@ if prompt := st.chat_input("Insert to chat"):
 
     # Logging prompt
     with open(log_filename, 'a') as f:
-        f.write(f"User: {prompt}\n")
+        f.write(f"<< User >>: {prompt}\n")
 
     organization = organizer.ask_assistant(prompt, 
                                            ", ".join(
@@ -100,6 +100,12 @@ if prompt := st.chat_input("Insert to chat"):
             st.session_state.therapist_description = concluser.ask_assistant(
                 st.session_state.story, st.session_state.name
             )
+
+
+            # Logging Concluser output
+            with open(log_filename, 'a') as f:
+                f.write(f"Concluser: {st.session_state.therapist_description}\n")
+
             if st.session_state["descriptions"] != []:
                 response = compariser.ask_assistant(
                     st.session_state.therapist_description,
@@ -144,7 +150,6 @@ if prompt := st.chat_input("Insert to chat"):
                 st.session_state[variable] = ""
 
     else:
-        print(f"Value of organization: {organization}")
         response = "I do not know understand. Please provide more information."
 
     with st.chat_message("assistant"):
@@ -155,4 +160,4 @@ if prompt := st.chat_input("Insert to chat"):
 
     # Logging response
     with open(log_filename, 'a') as f:
-        f.write(f"Assistant: {response}\n")
+        f.write(f"<< Assistant >>: {response}\n")
