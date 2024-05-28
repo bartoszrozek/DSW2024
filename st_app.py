@@ -86,9 +86,9 @@ if prompt := st.chat_input("Insert to chat"):
         problem = extractor.ask_assistant(prompt)
 
         # Logging problem
-        print(msg.identified_problem + problem)
+        print(msg.identified_problem[language_option] + problem)
         with open(log_filename, 'a') as f:
-            f.write(msg.identified_problem + problem + "\n ")
+            f.write(msg.identified_problem[language_option] + problem + "\n ")
 
         response, st.session_state.name = screenwriter.ask_assistant(problem)
         st.session_state.story = response
