@@ -25,5 +25,23 @@ starting_message = {
 
 welcome_message = {
     "English": "Welcome to the chat-bot therapy. Please describe your problem.",
-    "Polski": "Witaj w chat-bot terapii. Proszę opisz swój problem.",
+    "Polski": "Witaj w chat-bot terapii. Proszę, opisz swój problem.",
 }
+
+identified_problem = {
+    "English": "Identified problem; ",
+    "Polski": "Rozpoznany problem: "
+}
+
+missed_some_steps = {
+    "English": "I think we missed some steps. Please start from the beggining.\n",
+    "Polski": "Chyba coś pominęliśmy po drodze. Rozpocznij, proszę, od początku.\n"
+}
+
+not_understand = {
+    "English": "I do not understand. Please provide more information.",
+    "Polski": "Nie rozumiem. Podaj, proszę, więcej informacji."
+}
+
+description_intro = {"English": "Description", "Polski": "Opis"}
+message_intro = {"English": "Message", "Polski": "Wiadomość"}

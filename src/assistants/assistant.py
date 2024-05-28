@@ -2,7 +2,8 @@ from abc import ABC, abstractmethod
 
 
 class Assistant(ABC):
-    def __init__(self) -> None:
+    def __init__(self, language_option: str) -> None:
+        self.language_option = language_option
         pass
 
     @abstractmethod

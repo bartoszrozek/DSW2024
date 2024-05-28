@@ -6,19 +6,20 @@ import os
 import datetime
 
 client = OpenAI()
-extractor = assistants.Extractor()
-screenwriter = assistants.Screenwriter()
-analist = assistants.Analist()
-concluser = assistants.Concluser()
-compariser = assistants.Compariser()
-organizer = assistants.Organizer()
-conversationalist = assistants.Conversationalist()
 
 st.set_page_config(layout="wide")
 
 st.title("Chat-Bot Therapy")
 
 language_option = st.selectbox("Language", ("English", "Polski"))
+
+extractor = assistants.Extractor(language_option)
+screenwriter = assistants.Screenwriter(language_option)
+analist = assistants.Analist(language_option)
+concluser = assistants.Concluser(language_option)
+compariser = assistants.Compariser(language_option)
+organizer = assistants.Organizer(language_option)
+conversationalist = assistants.Conversationalist(language_option)
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -64,15 +65,17 @@ if prompt := st.chat_input("Insert to chat"):
     with open(log_filename, 'a') as f:
         f.write(f"<< User >>: {prompt}\n")
 
-    organization = organizer.ask_assistant(prompt, 
-                                           ", ".join(
-                                                    [
-                                                        f"Message {idx}: {message}"
-                                                        for idx, message in enumerate(
-                                                            st.session_state["messages"]
-                                                        )
-                                                    ]
-                                                ))
+    organization = organizer.ask_assistant(
+        prompt,
+        ", ".join(
+            [
+                f"{msg.message_intro[language_option]} {idx}: {message}"
+                for idx, message in enumerate(
+                    st.session_state["messages"]
+                )
+            ]
+        )
+    )
     
     # Logging organisation
     print(f"------{organization}------")
@@ -83,9 +86,9 @@ if prompt := st.chat_input("Insert to chat"):
         problem = extractor.ask_assistant(prompt)
 
         # Logging problem
-        print(f"Identified problem: {problem}")
+        print(msg.identified_problem + problem)
         with open(log_filename, 'a') as f:
-            f.write(f"Identified problem: {problem}\n ")
+            f.write(msg.identified_problem + problem + "\n ")
 
         response, st.session_state.name = screenwriter.ask_assistant(problem)
         st.session_state.story = response
@@ -93,7 +96,7 @@ if prompt := st.chat_input("Insert to chat"):
     elif organization == "Compariser":
         if st.session_state.name == "" or st.session_state.story == "":
             response = (
-                "I think we missed some steps. Please start from the beggining.\n"
+                msg.missed_some_steps[language_option]
                 + msg.starting_message[language_option]
             )
         else:
@@ -112,7 +115,7 @@ if prompt := st.chat_input("Insert to chat"):
                     prompt,
                     ", ".join(
                         [
-                            f"Description {idx}: {description}"
+                            f"{msg.description_intro[language_option]} {idx}: {description}"
                             for idx, description in enumerate(
                                 st.session_state["descriptions"]
                             )
@@ -127,16 +130,16 @@ if prompt := st.chat_input("Insert to chat"):
 
     elif organization == "Conversationalist":
         response = conversationalist.ask_assistant(
-                    prompt,
-                    ", ".join(
-                        [
-                            f"Message {idx}: {message}"
-                            for idx, message in enumerate(
-                                st.session_state["messages"]
-                            )
-                        ]
-                    ),
-                )
+            prompt,
+            ", ".join(
+                [
+                    f"{msg.description_intro[language_option]} {idx}: {message}"
+                    for idx, message in enumerate(
+                        st.session_state["messages"]
+                    )
+                ]
+            ),
+        )
 
     elif organization == "New conversation":
         response = msg.starting_message[language_option]
@@ -150,7 +153,7 @@ if prompt := st.chat_input("Insert to chat"):
                 st.session_state[variable] = ""
 
     else:
-        response = "I do not know understand. Please provide more information."
+        response = not_understand[language_option]
 
     with st.chat_message("assistant"):
         st.markdown(response, unsafe_allow_html=True)
