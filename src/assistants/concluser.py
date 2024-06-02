@@ -61,6 +61,7 @@ class Concluser(Assistant):
         name: str
     ) -> str:
         client = OpenAI()
+        language = self.language_option
 
         completion = client.chat.completions.create(
             model="gpt-4-turbo",

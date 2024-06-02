@@ -72,6 +72,8 @@ class Analist(Assistant):
 
     def ask_assistant(self, prompt: str) -> str:
         client = OpenAI()
+        language = self.language_option
+        
         completion = client.chat.completions.create(
             model="gpt-4-turbo",
             messages=[

@@ -72,7 +72,6 @@ class Compariser(Assistant):
     @staticmethod
     def additional_data(
         language: str,
-        therapist_description: str,
         conversation_history: str | None = None,
     ) -> dict:
         if conversation_history is not None:
@@ -98,8 +97,8 @@ class Compariser(Assistant):
         completion = client.chat.completions.create(
             model="gpt-4-turbo",
             messages=[
-                self.get_system_role(),
-                self.additional_data(conversation_history),
+                self.get_system_role(language),
+                self.additional_data(language, conversation_history),
                 {
                     "role": "user",
                     "content": content[0] + therapist_description,
