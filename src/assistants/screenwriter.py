@@ -92,7 +92,7 @@ class Screenwriter(Assistant):
     ) -> dict:
         return {
             "role": "system",
-            "content": additional_data_content[language].format(place = random_place(self.language_option),
+            "content": additional_data_content[language].format(place = random_place(language),
                                                                 number = random_n_people())
         }
 
