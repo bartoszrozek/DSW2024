@@ -5,13 +5,13 @@ import src.assistants as assistants
 import os
 import datetime
 
-client = OpenAI()
-
 st.set_page_config(layout="wide")
 
 st.title("Chat-Bot Therapy")
 
 language_option = st.selectbox("Language", ("English", "Polski"))
+
+client = OpenAI()
 
 extractor = assistants.Extractor(language_option)
 screenwriter = assistants.Screenwriter(language_option)
@@ -22,10 +22,17 @@ organizer = assistants.Organizer(language_option)
 conversationalist = assistants.Conversationalist(language_option)
 
 # Initialize chat history
-if "messages" not in st.session_state:
+if "language" in st.session_state:
+    reload = (st.session_state["language"] != language_option)
+else:
+    reload = True
+
+st.session_state["language"] = language_option
+
+if "messages" not in st.session_state or reload:
     st.session_state["messages"] = []
 
-if "description" not in st.session_state:
+if "descriptions" not in st.session_state or reload:
     st.session_state["descriptions"] = []
 
 for variable in [
@@ -34,10 +41,10 @@ for variable in [
     "name",
     "story",
 ]:
-    if variable not in st.session_state:
+    if variable not in st.session_state or reload:
         st.session_state[variable] = ""
 
-if "start_timestamp" not in st.session_state:
+if "start_timestamp" not in st.session_state or reload:
     st.session_state["start_timestamp"] = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 
 

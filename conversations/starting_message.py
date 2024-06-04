@@ -29,7 +29,7 @@ welcome_message = {
 }
 
 identified_problem = {
-    "English": "Identified problem; ",
+    "English": "Identified problem: ",
     "Polski": "Rozpoznany problem: "
 }
 
