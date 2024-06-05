@@ -31,7 +31,7 @@ system_role_content = {
 }
 
 additional_data_content = {
-    'English': "Autistic character in the story is called {name}. Describe only what was hard for him and what he feeled.",
+    'English': "Autistic character in the story is called {name}. Describe only what was hard for him and what he felt.",
     'Polski': "Autystyczną postacią w tej historii jest {name}. Opisz tylko to, co było trudne dla tej osoby i co ona czuła."
 }
 

@@ -72,8 +72,8 @@ additional_data_content = {
 }
 
 story_content = {
-    'English': ["OK, I understand that. Maybe we would try to work on this imaginary situation.\n\n", "Please describe what {name} felt and what was difficult for them.\n"],
-    'Polski': ["Okej, rozumiem. Może spróbujemy popracować nad tą zmyśloną sytuacją.\n\n", "Opisz, proszę, co czuje {name} i co jest trudne dla tej osoby.\n"]
+    'English': ["OK, I understand that. Maybe we would try to work on this imaginary situation.\n\n", "Please describe what {name} felt and what was could require effort from them.\n"],
+    'Polski': ["Okej, rozumiem. Może spróbujemy popracować nad tą zmyśloną sytuacją.\n\n", "Opisz, proszę, co czuje {name} i co mogło wymagać wysiłku od tej osoby.\n"]
 }
 
 class Screenwriter(Assistant):
