@@ -23,7 +23,7 @@ conversationalist = assistants.Conversationalist(language_option)
 
 # Initialize chat history
 if "language" in st.session_state:
-    reload = (st.session_state["language"] != language_option)
+    reload = st.session_state["language"] != language_option
 else:
     reload = True
 
@@ -45,7 +45,9 @@ for variable in [
         st.session_state[variable] = ""
 
 if "start_timestamp" not in st.session_state or reload:
-    st.session_state["start_timestamp"] = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    st.session_state["start_timestamp"] = datetime.datetime.now().strftime(
+        "%Y%m%d-%H%M%S"
+    )
 
 
 with st.chat_message("assistant"):
@@ -67,9 +69,8 @@ if prompt := st.chat_input("Insert to chat"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-
     # Logging prompt
-    with open(log_filename, 'a') as f:
+    with open(log_filename, "a") as f:
         f.write(f"<< User >>: {prompt}\n")
 
     organization = organizer.ask_assistant(
@@ -77,16 +78,15 @@ if prompt := st.chat_input("Insert to chat"):
         ", ".join(
             [
                 f"{msg.message_intro[language_option]} {idx}: {message}"
-                for idx, message in enumerate(
-                    st.session_state["messages"]
-                )
+                for idx, message in enumerate(st.session_state["messages"])
             ]
-        )
+        ),
+        st.session_state.story != "",
     )
-    
+
     # Logging organisation
     print(f"------{organization}------")
-    with open(log_filename, 'a') as f:
+    with open(log_filename, "a") as f:
         f.write(f"------{organization}------\n")
 
     if organization == "Extractor":
@@ -94,12 +94,12 @@ if prompt := st.chat_input("Insert to chat"):
 
         # Logging problem
         print(msg.identified_problem[language_option] + problem)
-        with open(log_filename, 'a') as f:
+        with open(log_filename, "a") as f:
             f.write(msg.identified_problem[language_option] + problem + "\n ")
 
         response, st.session_state.name = screenwriter.ask_assistant(problem)
         st.session_state.story = response
-        
+
     elif organization == "Compariser":
         if st.session_state.name == "" or st.session_state.story == "":
             response = (
@@ -111,9 +111,8 @@ if prompt := st.chat_input("Insert to chat"):
                 st.session_state.story, st.session_state.name
             )
 
-
             # Logging Concluser output
-            with open(log_filename, 'a') as f:
+            with open(log_filename, "a") as f:
                 f.write(f"Concluser: {st.session_state.therapist_description}\n")
 
             if st.session_state["descriptions"] != []:
@@ -141,9 +140,7 @@ if prompt := st.chat_input("Insert to chat"):
             ", ".join(
                 [
                     f"{msg.description_intro[language_option]} {idx}: {message}"
-                    for idx, message in enumerate(
-                        st.session_state["messages"]
-                    )
+                    for idx, message in enumerate(st.session_state["messages"])
                 ]
             ),
         )
@@ -169,5 +166,5 @@ if prompt := st.chat_input("Insert to chat"):
     st.session_state.messages.append({"role": "assistant", "content": response})
 
     # Logging response
-    with open(log_filename, 'a') as f:
+    with open(log_filename, "a") as f:
         f.write(f"<< Assistant >>: {response}\n")
