@@ -1,0 +1,117 @@
+<< User >>: Hi, my name is Martyna, I sometimes struggle when people are talking with each other and I would like to join, but I don't know how
+------Extractor------
+Identified problem; Observing and Understanding Conversations 
+ << Assistant >>: OK, I understand that. Maybe we would try to work on this imaginary situation.
+
+In the school cafeteria, Tom sits at a table eating his lunch. Nearby, Anna and Mike are having a conversation. Tom notices that both of them are smiling and often nod while they talk.
+
+Anna: "Did you watch the new superhero movie? It’s really good!"
+
+Mike: "Yes, I saw it last weekend. I loved the special effects, they were amazing."
+
+Tom listens and then decides to join their conversation because he also watched the movie.
+
+Tom: "Hi Anna, hi Mike. I heard you talking about the superhero movie. I saw it too! My favorite part was the battle scene in the middle. What was your favorite scene, Mike?"
+
+Mike: "I really liked the ending. It was unexpected!"
+
+Anna smiles at Tom and nods, encouraging him to continue the conversation.
+
+Anna: "Tom, which superhero did you like best?"
+
+Tom shares his opinion, feeling included in the discussion.
+
+Please describe what Tom felt and what was difficult for them.
+
+<< User >>: Tom wanted to join the conversation
+------Extractor------
+Identified problem; Observing and Understanding Conversations
+ << Assistant >>: OK, I understand that. Maybe we would try to work on this imaginary situation.
+
+In the school cafeteria, Alex sits at a table when Jamie, Taylor, and Sam join with their lunch trays. 
+
+Jamie laughs and shares a joke about elephants. Everyone at the a table laughs, except Alex, who looks confused. 
+
+Taylor notices and says, "Don’t worry, it’s just a silly joke, elephants can’t really surf!" They all smile and nod.
+
+Alex nods back, still unsure, but then tries to join in. "Do you know why the tomato turned red?" 
+
+Everyone waits and Alex delivers the punchline, "Because it saw the salad dressing!" 
+
+This time, Jamie, Taylor, and Sam laugh, appreciating Alex’s attempt. Sam claps Alex on the back lightly saying, "Good one, Alex!" 
+
+They continue eating, talking more about their favorite funny stories from books and movies. Alex listens and contributes a few more jokes, feeling more relaxed as the lunch continues. 
+
+Please describe what [Alex] felt and what was difficult for them.
+
+<< User >>: Alex didn't understand the joke and felt uneasy about that
+------Compariser------
+<< User >>: Alex didn't understand the joke and felt uneasy about that
+------Compariser------
+Concluser: For [Alex], the situation in the cafeteria presented several challenges:
+
+1. **Understanding the joke**: Initially, when Jamie told the joke about elephants, [Alex] found it hard to understand why it was funny. This is because jokes often rely on implicit knowledge and social cues which can be difficult for some autistic individuals to interpret. [Alex] felt confused and possibly excluded when everyone laughed except for him.
+
+2. **Social participation**: After not understanding the joke, [Alex] faced the challenge of how to participate in the social setting. He made an effort to join in by telling his own joke. This indicates a desire to connect and be part of the group, despite initial difficulties.
+
+3. **Receiving social cues**: When [Alex] attempted his joke and received a positive response from the group, he likely felt relief and acceptance. The laughter and light-hearted physical acknowledgment from Sam (a clap on the back) acted as social cues that [Alex] was being included and appreciated by his peers.
+
+Overall, [Alex] experienced confusion and uncertainty due to difficulties in processing social interactions and humor but gradually felt more relaxed and included as he adjusted to the social dynamics of the situation.
+<< Assistant >>: It sounds like you've noticed how Alex felt uneasy because he didn't understand the joke, which is important. But there's a bit more to explore about his experience in the cafeteria. When Alex didn't understand the joke, he also tried to join in by telling his own joke. Have you ever had a moment when you didn't understand something but still wanted to be part of the group? How did you handle that situation?
+<< User >>: Yes, it has happened to me many times - I just don't know what to say, so I usually stay quiet or look at my phone or I just leave.
+------Compariser------
+Concluser: In the scenario described, Alex felt confusion initially when Jamie shared a joke about elephants. This confusion arose because Alex found it difficult to comprehend the humor or abstract concept behind the joke, which is a common challenge for some individuals with autism who may take things more literally or have difficulty with abstract thinking.
+
+When Taylor reassured Alex and explained the joke, although Alex nodded back, he was still unsure which indicates that he might have felt some persisting confusion or uncertainty about the social cues and expectations involved in this interaction.
+
+Alex then attempted to join in by telling his own joke. This could have been a challenging moment for him as it involved initiating social interaction and possibly a fear of negative evaluation or not being understood by his peers. However, after his peers laughed and appreciated his joke, it appears that Alex felt more relaxed and included, as evidenced by his increased participation in the conversation and his willingness to share more jokes.
+
+The light clap on the back from Sam, followed by positive reinforcement ("Good one, Alex!"), likely contributed to Alex feeling more accepted and comfortable within the group, easing any earlier feelings of social anxiety or exclusion. This shift from confusion and uncertainty to feeling relaxed and included highlights the initial difficulty Alex experienced in navigating social nuances and humor, and his subsequent adaptation to the social context as the lunch continued.
+<< Assistant >>: It sounds like you can relate to Alex's initial confusion when he heard a joke he didn't understand. It's alright to feel unsure about what to say or do in social situations like that. Staying quiet, looking at your phone, or leaving are ways you might handle that discomfort, which is totally okay if it helps you feel safer or more at ease.
+
+However, Alex's experience shows that sometimes trying to engage, like he did by telling his own joke, can also have positive outcomes. It might be scary to think about doing this, but maybe there could be a time when you feel comfortable enough to try something similar?
+
+If you want, we can think together about small steps you might take to feel more at ease in such situations, or we can come up with some ideas on how to respond when you don't understand a joke. What do you think? Would you like to try discussing some strategies that could work for you?
+<< User >>: Sure, I'd like to work on that.
+------Conversationalist------
+<< Assistant >>: Great! I'm glad to hear that you'd like to work on this. Let's start by thinking about what kind of responses you can use when you don't understand a joke or when you want to join in on a conversation but aren't sure how.
+
+One thing you can do is ask questions about what you didn't understand. For example, if someone tells a joke that you don't get, you might say, "I didn't catch that; could you explain it to me?" This shows that you're interested and gives you a chance to be part of the conversation.
+
+Another method is to share something related even if it's not exactly on the same topic, just like Alex did with his joke. For instance, if people are talking about a movie, and you don't know much about it, you could talk about another movie you like or ask questions about the movie they mentioned.
+
+What are some situations where you usually find it challenging to join in, and what's something specific that you find tough about those situations? Let's use those examples to practice what you might say or do.
+<< User >>: Sometimes my classmates are talking about their hobbies - like biking or volleyball, but I don't like them - I prefer listening to music. But I could try asking them what types of bands they like?
+------Extractor------
+Identified problem; Engaging in Group Conversations
+ << Assistant >>: OK, I understand that. Maybe we would try to work on this imaginary situation.
+
+Alex walks into the living room where Jamie, Sam, and Morgan are sitting. 
+
+Alex says, "Hey everyone, what are you all talking about?" 
+
+Morgan looks up and responds, "We're just discussing the new superhero movie that came out last week. Have you seen it?" 
+
+Alex nods, "Yes, I did! I really liked the part where the hero saves the city. What did you guys think about that scene?"
+
+Jamie smiles and says, "I thought it was really well done! The special effects were amazing."
+
+Sam, laughing a bit, adds, "I agree, but the villain's costume was so funny-looking!"
+
+Alex listens and then replies, "It was a bit over the top, wasn't it? It made the scene even more entertaining though."
+
+They all nod and continue talking about different scenes from the movie, each sharing their thoughts.
+
+Please describe what Alex felt and what was difficult for them.
+
+<< User >>: I think I'm done for today
+------New conversation------
+<< Assistant >>: Hi, I'm your conselor. Please specify which training you want to use:
+- conversation with large group of people
+- being witness of two people conversation
+- work organization/multitasking
+- dynamic change of plans
+- reading irony
+- negotiations
+- stress management
+Optionally, you can describe problematic situation that happened to you and I will try to help you with it.

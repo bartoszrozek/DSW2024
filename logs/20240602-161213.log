@@ -1,0 +1,46 @@
+<< User >>: Czeœæ, mam na imiê Martyna
+------Conversationalist------
+<< Assistant >>: Czeœæ Martyna! Cieszê siê, ¿e tutaj jesteœ. W czym mogê Ci dzisiaj pomóc? Jakie sytuacje spo³eczne sprawiaj¹ Ci trudnoœæ?
+<< User >>: Rozmowy w grupie czêsto sprawiaj¹ mi problem, zw³aszcza, gdy dobrze nie znam tych osób
+------Extractor------
+Rozpoznany problem: Udzia³ w rozmowach grupowych
+ << Assistant >>: Okej, rozumiem. Mo¿e spróbujemy popracowaæ nad t¹ zmyœlon¹ sytuacj¹.
+
+W klasie nauczycielka prosi uczniów, by podzielili siê na grupy i omówili ksi¹¿kê, któr¹ ostatnio czytali. Marek, Zosia, Adam i Julia tworz¹ jedn¹ z grup. Marek zaczyna:
+
+- Przeczyta³em ostatnio bardzo interesuj¹c¹ ksi¹¿kê o podró¿ach kosmicznych. Myœlê, ¿e by³a fascynuj¹ca.
+
+Zosia odpowiada:
+
+- O, to brzmi super, Marek. A co dok³adnie ci siê w niej najbardziej podoba³o?
+
+Adam dodaje:
+
+- Ja te¿ lubiê ksi¹¿ki o kosmosie. Chcia³bym wiedzieæ wiêcej.
+
+Julia, patrz¹c na Marka, uœmiecha siê i mówi:
+
+- Dobra propozycja, Marek. Mo¿e wykorzystamy to do naszego projektu?
+
+Marek, widz¹c reakcje swoich kolegów, czuje siê zachêcony do dalszej rozmowy.
+
+Opisz, proszê, co czuje Marek i co jest trudne dla tej osoby.
+
+<< User >>: Marek musia³ omówiæ w grupie ksi¹¿kê, wiêc mia³ ju¿ podany temat. Co powinien zrobiæ, gdyby nie przeczyta³ ostatnio ¿adnej ciekawej ksi¹¿ki?
+------Extractor------
+Rozpoznany problem: Udzia³ w rozmowach grupowych
+ << Assistant >>: Okej, rozumiem. Mo¿e spróbujemy popracowaæ nad t¹ zmyœlon¹ sytuacj¹.
+
+W parku, Karol, Ada i Bartek siedz¹ na ³awce. Ada mówi o swojej wizycie w zoo i pyta Bartka, co s¹dzi o s³oniach. Bartek patrzy na Karola, niepewny, co odpowiedzieæ. Karol sugeruje Bartkowi, ¿e mo¿e opowiedzieæ o ulubionej ksi¹¿ce, któr¹ ostatnio czyta³. Bartek uœmiecha siê, kiwa g³ow¹ i zaczyna opowiadaæ o ksi¹¿ce, patrz¹c na Adê. Ada s³ucha, a po chwili œmieje siê i mówi, ¿e zna tê ksi¹¿kê. Karol œmieje siê razem z Ad¹, a Bartek wydaje siê bardziej zrelaksowany. Opisz, proszê, co czuje Karol i co jest trudne dla tej osoby.
+
+<< User >>: Dlaczego wymyœli³eœ now¹ historiê zamiast odpowiedzieæ na moje pytanie?
+------Conversationalist------
+<< Assistant >>: Przepraszam za zamieszanie, Martyna. Twoje pytanie by³o bardzo wa¿ne. Jeœli Marek nie przeczyta³ ostatnio ¿adnej ciekawej ksi¹¿ki, móg³by zamiast tego podzieliæ siê swoimi przemyœleniami na temat kategorii ksi¹¿ek, które ostatnio go interesuj¹, albo zapytaæ innych cz³onków grupy, co ostatnio przeczytali i jakie s¹ ich rekomendacje. To mo¿e pomóc w utrzymaniu rozmowy i umo¿liwiæ mu uczestniczenie w dyskusji, nawet jeœli nie ma konkretnej ksi¹¿ki do omówienia.
+
+Czy to odpowiada na Twoje pytanie? Jak mogê Ci jeszcze pomóc?
+<< User >>: Tak, to pomocne
+------Conversationalist------
+<< Assistant >>: Cieszê siê, ¿e mog³em pomóc! Czy masz jeszcze jakieœ pytania lub sytuacje, nad którymi chcia³abyœ popracowaæ?
+<< User >>: Nie, to wszystko
+------Conversationalist------
+<< Assistant >>: Dziêkujê za rozmowê, Martyna! Jeœli bêdziesz potrzebowaæ wiêcej pomocy lub chcia³abyœ porozmawiaæ o innych sytuacjach, zawsze mo¿esz do mnie napisaæ. ¯yczê Ci mi³ego dnia!

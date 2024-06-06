@@ -1,0 +1,45 @@
+<< User >>: Moja rodzina chce siê przeprowadziæ do nowego miasta. Lubiê swój obecny dom i nie chcê siê z nim rozstawaæ
+------Extractor------
+Rozpoznany problem: Dostosowanie siê do zmian
+ << Assistant >>: Okej, rozumiem. Mo¿e spróbujemy popracowaæ nad t¹ zmyœlon¹ sytuacj¹.
+
+W parku, Janek siedzi na ³awce z ksi¹¿k¹. Obok niego podchodzi Kasia i siada. 
+
+Kasia mówi: „Czeœæ Janek, nie wiedzia³am, ¿e te¿ tu bêdziesz!”
+
+Janek patrzy na ni¹ przez chwilê, uœmiecha siê. „Czeœæ Kasia, te¿ siê cieszê ciê widzieæ.”
+
+Kasia kontynuuje: „Zawsze myœla³em, ¿e czytasz w domu. Teraz widzê, ¿e zmienia siê wiele rzeczy, nawet miejsce czytania.”
+
+Janek odpowiada: „Tak, czasem fajnie jest poczytaæ na œwie¿ym powietrzu. Ale zobacz, pogoda siê zmienia, mo¿e nied³ugo zacznie padaæ.”
+
+Kasia kiwa g³ow¹. „Masz racjê. Mo¿e koñczymy, zanim zacznie padaæ?”
+
+Janek zgadza: „Dobry pomys³, Kasia.”
+
+Obaj powoli zbieraj¹ swoje rzeczy i wstaj¹, by pójœæ do domu.
+
+Opisz, proszê, co czuje Janek i co jest trudne dla tej osoby.
+
+<< User >>: Janek czuje siê dobrze czytaj¹c ksi¹¿kê w parku. Gdy orientuje siê, ¿e zacznie nied³ugo padaæ zgadza siê wróciæ do domu. Nie widzê w tej historii nic trudnego dla niego
+------Compariser------
+Concluser: W tej historii trudnoœci¹ dla Janka mog³o byæ niespodziewane przerywanie jego samotnej aktywnoœci, jak¹ by³o czytanie. Osoby autystyczne czêsto ceni¹ sobie rutynê i przewidywalnoœæ, dlatego nag³e pojawienie siê Kasi i rozpoczêcie rozmowy mog³o byæ dla niego Ÿród³em dyskomfortu. 
+
+Janek móg³ poczuæ siê zaskoczony i mo¿liwe, ¿e pocz¹tkowo zestresowany, próbuj¹c dostosowaæ siê do nowej sytuacji. Aczkolwiek zdawa³ siê byæ zadowolony z mo¿liwoœci spotkania znajomej, to mog³a byæ maska uœmiechu u¿ywana, by ukryæ pocz¹tkowe uczucie dyskomfortu. Ponowne zmiany warunków, kiedy Kasia zasugerowa³a opuszczenie parku z powodu pogody, mog³y dodatkowo zwiêkszyæ poczucie niepewnoœci, poniewa¿ zmieniali siê jego plany dotycz¹ce czytania na œwie¿ym powietrzu. 
+
+Janek móg³ czuæ mieszane emocje – ciesz¹c siê z mo¿liwoœci towarzyszenia przyjacielowi, jednoczeœnie czuj¹c ³agodne przyt³oczenie z powodu szybkich zmian w planach i potrzeby szybkiego adaptowania siê do kolejnej nowej sytuacji.
+<< Assistant >>: Rozumiem, ¿e opis sytuacji przez Ciebie brzmi, jakby Janek nie mia³ ¿adnych trudnoœci z adaptacj¹ do zmieniaj¹cych siê okolicznoœci. Jednak, jak rozumiem, mog³y wyst¹piæ pewne subtelne trudnoœci, które nie zosta³y od razu zauwa¿one. Wspomnia³em, ¿e nag³e przerywanie jego samotnej aktywnoœci, jak¹ by³o czytanie, przez pojawienie siê Kasi mo¿na uznaæ za potencjalne Ÿród³o dyskomfortu dla osoby autystycznej. Osoby autystyczne czêsto preferuj¹ przewidywalnoœæ i rutynê, wiêc zmiana, tak jak niespodziewane zaproszenie do zmiany miejsca z powodu pogody, mo¿e wywo³aæ poczucie niepokoju czy stres.
+
+Czy móg³byœ zastanowiæ siê, czy w momencie gdy Kasia przerwa³a Janekowi czytanie, czu³ on niewygodê lub by³ zaskoczony, ale zareagowa³ w sposób, który by³by spo³ecznie akceptowalny? Czasem osoby autystyczne staraj¹ siê odpowiedzieæ „odpowiednio”, nawet jeœli wewn¹¿ czuj¹ siê inaczej. Mo¿e Janek u¿y³ „maski uœmiechu”, aby zakryæ swoje pocz¹tkowe zaniepokojenie zmian¹ sytuacji?
+
+Rozmowa o tym, co rzeczywiœcie czu³ Janek, mo¿e pomóc zrozumieæ i dopasowaæ strategie radzenia sobie z podobnymi sytuacjami w przysz³oœci. Jak myœlisz, czy to mo¿liwe?
+<< User >>: Mog³o tak byæ. Janek zatrzyma³ siê na chwilê zanim odpowiedzia³ Kasi, wiêc mo¿e wtedy zastanawia³ siê, co zrobiæ
+------Conversationalist------
+<< Assistant >>: Dziêkujê za podzielenie siê swoimi przemyœleniami. Wygl¹da na to, ¿e ta chwila zatrzymania siê Janka przed odpowiedzi¹ mo¿e rzeczywiœcie wskazywaæ, ¿e zastanawia³ siê, jak zareagowaæ na niespodziewane przerwanie przez Kasiê i nagle zmieniaj¹c¹ siê sytuacjê. Mo¿e to byæ trudne dla osoby autystycznej, która ceni sobie rutynê i przewidywalnoœæ. 
+
+Rozmawiaj¹c dalej o tej sytuacji, moglibyœmy rozwa¿yæ, jakie strategie móg³by Janek zastosowaæ, aby lepiej radziæ sobie w takich niespodziewanych momentach. Mo¿e to byæ na przyk³ad chwilowe poœwiêcenie czasu na przemyœlenie swojej odpowiedzi, co ju¿ potencjalnie robi³, lub przygotowanie wczeœniej kilku podejœæ, jak reagowaæ, gdy ktoœ przerywa mu czytanie. 
+
+Jak s¹dzisz, czy te strategie by³yby przydatne dla Janka? Czy widzisz inne sposoby, w jakie móg³by on poprawiæ swoj¹ reakcjê w przysz³oœci?
+<< User >>: Wydaj¹ siê przydatne
+------Conversationalist------
+<< Assistant >>: Bardzo siê cieszê, ¿e uwa¿asz te strategie za przydatne. Czy s¹ jeszcze jakieœ inne sytuacje, które by³yby dla Ciebie trudne, a chcia³byœ, abym pomóg³ Ci znaleŸæ najlepsze sposoby radzenia sobie z nimi?

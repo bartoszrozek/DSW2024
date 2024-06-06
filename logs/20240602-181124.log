@@ -1,0 +1,30 @@
+<< User >>: Mój brat czasami prze³¹cza telewizjê kiedy j¹ ogl¹dam, mimo, ¿e to czas kiedy to ja decydujê o tym co ogl¹damy
+------Extractor------
+Rozpoznany problem: Kierowanie negocjacjami i konfliktami
+ << Assistant >>: Okej, rozumiem. Mo¿e spróbujemy popracowaæ nad t¹ zmyœlon¹ sytuacj¹.
+
+Na chodniku cztery osoby stoj¹ w krêgu i dyskutuj¹. Marek, który umiejêtnie prowadzi dyskusjê, zwraca siê do grupy:
+
+Marek mówi do Ani: "Myœlê, ¿e warto rozwa¿yæ ka¿dy punkt widzenia przed podjêciem decyzji. Ania, mo¿esz powiedzieæ, co najbardziej Ciê niepokoi w tej sprawie?"
+
+Ania odpowiada: "Ok, wiêc nie podoba mi siê pomys³..."
+
+Tomek, który do tej pory milcza³, rzuca: "A moim zdaniem to œwietny pomys³!"
+
+Marek spokojnie reaguje: "Tomek, dobrze, ¿e podzieli³eœ siê swoj¹ opini¹. Poczekajmy, co powie Ada."
+
+Ada, nieco nieœmia³a, wypowiada siê cicho: "Ja... ja siê zgadzam z Markiem, powinniœmy to przemyœleæ."
+
+Marek podsumowuje: "Dziêkujê wszystkim za opinie. Proponujê, ¿ebyœmy spotkali siê jutro i ka¿dy przyniós³ jedno nowe rozwi¹zanie do rozwa¿enia."
+
+Opisz, proszê, co czuje Marek i co jest trudne dla tej osoby.
+
+<< User >>: Co
+------Conversationalist------
+<< Assistant >>: Widzê, ¿e wys³a³eœ wiadomoœæ "Co", ale nie jestem pewien, co dok³adnie chcesz wiedzieæ. Czy mo¿esz sprecyzowaæ swoje pytanie? Chêtnie pomogê i wyjaœniê, czego potrzebujesz.
+<< User >>: Nie rozumiem co chcesz, ¿ebym zrobi³a
+------Conversationalist------
+<< Assistant >>: Przepraszam za zamieszanie. Chcia³bym, abyœ spróbowa³a przemyœleæ, jak Marek móg³by siê czuæ w opisanej sytuacji i jakie mog¹ byæ dla niego trudnoœci w prowadzeniu dyskusji. Mo¿esz te¿ wyobraziæ sobie siebie w roli Marka i zastanowiæ siê, jak byœ siê czu³a, prowadz¹c tak¹ rozmowê z ró¿nymi osobami. Jakie umiejêtnoœci spo³eczne móg³byœ przy tym wykorzystaæ lub których móg³byœ potrzebowaæ nauczyæ siê, aby poradziæ sobie w takiej sytuacji?
+<< User >>: Ale ja chcê porozmawiaæ o tym, jak ukaraæ mojego brata ¿eby mi wiêcej nie zabiera³ pilota
+------Conversationalist------
+<< Assistant >>: Rozumiem, ¿e sytuacja z bratem zabieraj¹cym pilota mo¿e byæ frustruj¹ca. Zamiast myœleæ o karaniu, lepiej by³oby spróbowaæ rozwi¹zaæ tê sytuacjê poprzez rozmowê. Mo¿esz wyjaœniæ bratu, jak siê czujesz, gdy prze³¹cza kana³y bez pytania i prosiæ, by szanowa³ Twój czas na ogl¹danie telewizji, który jest dla Ciebie wa¿ny. Mo¿e te¿ warto ustaliæ wspólne zasady korzystania z telewizora. Jak myœlisrem, ¿e to mog³oby pomóc?

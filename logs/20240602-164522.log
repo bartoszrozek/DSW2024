@@ -1,0 +1,64 @@
+<< User >>: Mam tyle do zrobienia ¿e nie wiem od czego zacz¹æ
+------Extractor------
+Rozpoznany problem: Skuteczne zarz¹danie czasem i organizacja
+ << Assistant >>: Okej, rozumiem. Mo¿e spróbujemy popracowaæ nad t¹ zmyœlon¹ sytuacj¹.
+
+W klasie nauczycielka mówi: "Ka¿dy z was ma przez tydzieñ prowadziæ dziennik z zadaniami domowymi i sposobem ich planowania". 
+
+Adam odpowiada: "Dobrze, bêdê zapisywa³ co muszê zrobiæ ka¿dego dnia".
+
+Basia dodaje: "Ja te¿ spróbujê. Mo¿e w ten sposób lepiej zorganizujê swój czas".
+
+Nauczycielka kiwa g³ow¹ i uœmiecha siê: "Œwietnie, pamiêtajcie, by sprawdzaæ swoje notatki ka¿dego wieczoru ¿eby niczego nie przegapiæ".
+
+Tomek pyta: "A co zrobiæ, jeœli zapomnê o czymœ z listy?".
+
+Nauczycielka odpowiada: "Stañ przy drzwiach i przeczytaj swoj¹ listê jeszcze raz przed wyjœciem z klasy".
+
+Adam, Basia i Tomek zapisuj¹ to, co powiedzia³a nauczycielka, uœmiechaj¹ siê i kiwaj¹ g³owami na znak zrozumienia. 
+
+Opisz, proszê, co czuje Tomek i co jest trudne dla tej osoby.
+
+<< User >>: Tomek obawia siê, ¿e o czymœ zapomni.
+------Compariser------
+Concluser: Tomek móg³ czuæ siê zdenerwowany lub zaniepokojony z powodu mo¿liwoœci zapomnienia o zadaniu. Trudnoœci¹ dla Tomka mog³a byæ koniecznoœæ zapamiêtania i zorganizowania zadañ w taki sposób, aby niczego nie pomin¹æ, co mo¿e byæ wyzwaniem ze wzglêdu na potrzebê zarz¹dzania wieloma informacjami jednoczeœnie. Zadanie to mog³o równie¿ wywo³aæ lêk przed konsekwencjami zapomnienia o wykonaniu któraœ z czynnoœci z listy.
+<< Assistant >>: Widzê, ¿e wyrazi³eœ swoje obawy dotycz¹ce zapominania o zadanich. To jest bardzo wa¿ne, ¿e zauwa¿asz te obawy. Czasami, oprócz samego zapominania, mo¿e Ciê równie¿ denerwowaæ to, jak siê zorganizowaæ i zarz¹dzaæ wieloma informacjami naraz. Rozumiem, ¿e to mo¿e wydawaæ siê przyt³aczaj¹ce i mo¿e budziæ lêk przed konsekwencjami niepamiêtania o wszystkich czynnoœciach, które masz do wykonania. Czy mo¿esz mi powiedzieæ wiêcej o tym, jak organizujesz swoje zadania? Mo¿e razem znajdziemy sposób, aby to u³atwiæ i zmniejszyæ Twój niepokój.
+<< User >>: Staram siê zapisywaæ sobie to co mam zrobiæ, ale robiê to w kilku miejscach (telefon, kalendarz, lub to co akurat mam pod rêk¹) i potem zapominam co gdzie mam zapisane i zamiast robiæ to co powinnam siedzê na telefonie
+------Extractor------
+Rozpoznany problem: Skuteczne zarz¹dzanie czasem i organizacja
+ << Assistant >>: Okej, rozumiem. Mo¿e spróbujemy popracowaæ nad t¹ zmyœlon¹ sytuacj¹.
+
+Anna pracuje nad projektem naukowym w swoim pokoju. Nad sto³em s¹ rozrzucone ró¿ne notatki i ksi¹¿ki. Micha³, starszy brat Anny, wchodzi do pokoju.
+
+Micha³: "Widzê, ¿e masz trochê ba³aganu. Mo¿e pomogê Ci to uporz¹dkowaæ?"
+
+Anna patrzy na stó³, a potem na Micha³a.
+
+Anna: "Tak, to dobry pomys³. Nie wiem, od czego zacz¹æ."
+
+Micha³ bierze kartkê i pisze listê zadañ do wykonania. Potem rozk³ada ksi¹¿ki w grupach tematycznych.
+
+Micha³: "Teraz ka¿da ksi¹¿ka i notatka ma swoje miejsce. Jak myœlisz, co mo¿esz zrobiæ dalej?"
+
+Anna bierze jedn¹ z grup ksi¹¿ek.
+
+Anna: "Mogê zacz¹æ od przeczytania tych notatek i zaznaczenia wa¿nych informacji."
+
+Micha³ skin¹ g³ow¹ i uœmiecha siê.
+
+Micha³: "Dok³adnie, krok po kroku. A jak skoñczysz, sprawdzimy razem, co zrobi³aœ."
+
+Anna kiwa g³ow¹ i zaczyna czytaæ notatki. Micha³ ko³o niej uk³adaj¹c kolejne materia³y.
+
+Opisz, proszê, co czuje Anna i co jest trudne dla tej osoby.
+
+<< User >>: Anna jest wdziêczna Micha³owi za pomoc w organizacji swoich notatek, co sprawia³o jej trudnoœæ.
+------Compariser------
+Concluser: W tej historii Anna mia³a trudnoœci z organizacj¹ swojej przestrzeni do pracy nad projektem naukowym. Widok ba³aganu sprawi³, ¿e czu³a siê przyt³oczona i niepewna, od czego zacz¹æ porz¹dkowanie. Samo zwrócenie siê o pomoc równie¿ mog³o byæ dla niej wyzwaniem, poniewa¿ wymaga³o to od niej zainicjowania interakcji spo³ecznej i przyznania siê do trudnoœci. Kiedy Micha³ pomóg³ jej uporz¹dkowaæ materia³y, mog³a poczuæ ulgê z powodu przejrzystego podzia³u na grupy tematyczne oraz stworzenia listy zadañ, co sprawi³o, ¿e zadanie sta³o siê bardziej zarz¹dzalne. Ponadto, perspektywa sprawdzania pracy z Micha³em mog³a dodatkowo zredukowaæ uczucie niepewnoœci, jak i stres zwi¹zany z wykonaniem zadania.
+<< Assistant >>: Dziêkujê za podzielenie siê swoim opisem sytuacji z Ann¹. Rozumiem, ¿e Anna czu³a wdziêcznoœæ wobec Micha³a za pomoc w uporz¹dkowaniu jej notatek. W twoim opisie skupiasz siê g³ównie na jej uczuciach wdziêcznoœci i pomocy, któr¹ otrzyma³a od Micha³a. Warto równie¿ zwróciæ uwagê na to, jak du¿e znaczenie dla Anny mia³o wyzwolenie siê z poczucia przyt³oczenia i niepewnoœci, które pojawi³o siê na pocz¹tku, kiedy zobaczy³a ba³agan i nie by³a pewna, jak zacz¹æ sprz¹tanie. Organizacja przestrzeni do pracy nie by³a tylko prostym zadaniem fizycznym, ale równie¿ wa¿nym krokiem w radzeniu sobie z tymi emocjami. Micha³, pomagaj¹c jej, sprawi³, ¿e zadanie sta³o siê bardziej przystêpne dziêki klarownej organizacji materia³ów na grupy tematyczne i stworzeniu listy zadañ. Mo¿e byæ tak¿e pomocne uzmys³owienie, jakie znaczenie mia³a mo¿liwoœæ wspólnej pracy z Micha³em zdaniem i sprawdzaniem postêpów, co mog³o dodatkowo zmniejszyæ jej niepewnoœæ i stres.
+
+Jeœli masz wiêcej informacji na temat tego, jak Anna radzi³a sobie z zadaniem po reorganizacji notatek, lub jakie inne uczucia mia³a w trakcie tej sytuacji, bêdê móg³ lepiej zrozumieæ i wsparæ j¹ w dalszych podobnych wyzwaniach.
+
+<< User >>: To hipotetyczna sytuacja - nie mam wiêcej informacji na temat Anny
+------Conversationalist------
+<< Assistant >>: Rozumiem, ¿e to hipotetyczna sytuacja. Jeœli chcia³byœ pracowaæ nad inn¹ sytuacj¹ lub masz inny rodzaj pytania, daj mi znaæ. Mogê pomóc Ci przeæwiczyæ kolejne scenariusze, które pomog¹ Ci w zrozumieniu i radzeniu sobie z ró¿nymi sytuacjami spo³ecznymi. Jakie sytuacje sprawiaj¹ Ci najwiêcej trudnoœci lub niepokoju? Mo¿emy razem przeanalizowaæ kolejne kroki, które mo¿esz podj¹æ, aby poczuæ siê w nich pewniej.
