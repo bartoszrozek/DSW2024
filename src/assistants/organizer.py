@@ -62,8 +62,8 @@ additional_data_content = {
 
 history_hint = {
     "English": [
-        "History was not said yet, this is not Compariser for sure.",
-        "The history was already said, it is not Extractor for sure",
+        "The story has not been said yet, this is not Compariser for sure.",
+        "The story was already said, it is not Extractor for sure",
     ],
     "Polski": [
         "Historia jeszcze nie została powiedziana, to na pewno nie Compariser",
